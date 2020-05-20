@@ -1,0 +1,32 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Jeff Lewis
+	email = lewisjkl@me.com(opens in new tab)
+[merge]
+	tool = p4mergetool
+[mergetool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
+	trustExitCode = false
+[mergetool]
+	keepBackup = false
+[diff]
+	tool = p4mergetool
+[difftool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
+[alias]
+	ac = !git add -A . && git commit -m
+	amend = commit --amend -m
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	unstage = reset --soft HEAD^
+        gone = "!f() { git branch | grep -v '^*' | xargs git branch -d; }; f"
+        F = "!f() { git checkout -b feature/$1; }; f"
+        B = "!f() { git checkout -b bug/$1; }; f"
+        E = "!f() { git checkout -b enhancement/$1; }; f"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = vim
+	excludesfile = /Users/jeff/.gitignore_global

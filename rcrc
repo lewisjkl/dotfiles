@@ -1,0 +1,1 @@
+EXCLUDES="Brewfile Default.bttpreset Brewfile.lock.json com.googlecode.iterm2.plist macos.sh install.sh"

@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+!.gitignore
+!Brewfile
+!install.sh
+!rcrc
+!zshrc
+!gitconfig
+!macos.sh
+!com.googlecode.iterm2.plist
+!Default.bttpreset
