@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Jeff Lewis
-	email = lewisjkl@me.com(opens in new tab)
+	email = lewisjkl@me.com
 [merge]
 	tool = p4mergetool
 [mergetool "p4mergetool"]
