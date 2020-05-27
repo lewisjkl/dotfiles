@@ -10,7 +10,6 @@ Setup with:
 
 ```zsh
 cd .dotfiles
-chmod +x macos.sh
 chmod +x install.sh
 ./install.sh
 ```
