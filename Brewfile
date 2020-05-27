@@ -43,6 +43,7 @@ cask 'bettertouchtool'
 cask 'tunnelblick'
 cask 'notion'
 cask 'firefox'
+cask 'figma'
 
 mas "Spark - Email App by Readdle", id: 1176895641
 mas "Bear", id: 1091189122

@@ -19,7 +19,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
 
-antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
+antigen theme dracula/zsh dracula
 
 antigen apply
 
