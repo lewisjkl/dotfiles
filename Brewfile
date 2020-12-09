@@ -10,7 +10,7 @@ tap "thoughtbot/formulae"
 brew 'git'
 brew 'bash-completion'
 brew 'tree'
-brew 'node'
+brew 'node@12'
 brew 'scala'
 brew 'sbt'
 cask "adoptopenjdk8" # needed for coursier
@@ -44,6 +44,7 @@ cask 'tunnelblick'
 cask 'notion'
 cask 'firefox'
 cask 'figma'
+cask 'gitter'
 
 mas "Spark - Email App by Readdle", id: 1176895641
 mas "Bear", id: 1091189122
