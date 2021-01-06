@@ -24,3 +24,5 @@ antigen theme dracula/zsh dracula
 antigen apply
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan"
+
+JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
